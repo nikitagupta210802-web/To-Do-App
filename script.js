@@ -1,5 +1,5 @@
 const taskInput = document.getElementById('task-input');
-const addBtn = document.getElementById('add-btn'); 
+const addBtn = document.getElementById('add-task-btn'); 
 const taskList = document.getElementById('task-list');
 const themeToggle = document.getElementById('theme-toggle');
 
@@ -25,5 +25,3 @@ deleteBtns.forEach(btn => {
         e.target.parentElement.remove();
     });
 });
-
-
