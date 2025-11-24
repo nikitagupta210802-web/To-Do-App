@@ -25,3 +25,11 @@ deleteBtns.forEach(btn => {
         e.target.parentElement.remove();
     });
 });
+
+// Theme toggle functionality
+themeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+    themeToggle.textContent = document.body.classList.contains('dark') ? '☀️' : '🌙';
+});
+
+
